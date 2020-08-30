@@ -21,3 +21,6 @@
  
  ## Deployment Status 
  Undeployed(to be deployed soon)
+ 
+ ## Resources
+ Django framework full course by Corey Schrafer. Follow-with-me tutorial by Corey Schrafer.
