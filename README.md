@@ -1,4 +1,5 @@
-# BlogCity
+# BlogCity 
+ ### [Click here to visit site](http://sarthak1905.pythonanywhere.com/)
  BlogCity is a web-app made by using the django framework of python along with bootstrap 4 for the frontend! A few changes need to be made on the front-end and are 
  currently under way.
  
