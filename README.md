@@ -23,4 +23,4 @@
  Undeployed(to be deployed soon)
  
  ## Resources
- Django framework full course by Corey Schrafer. Follow-with-me tutorial by Corey Schrafer.
+ Django framework full course by Corey Schafer. Follow-with-me tutorial by Corey Schafer.
