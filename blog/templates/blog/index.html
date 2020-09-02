@@ -3,8 +3,8 @@
     <div class="container p-4">
         <h1 class="title text-light">Welcome to BlogCity! Register today to get your account going within 5 minutes.</h1>
         <br><br>
-        <a href="{% url 'register'%}" class="btn-lg btn-info mb-8 mr-2 text-light">Register now</a>
-        <a href="{% url 'login'%}" class="btn-lg btn-info mb-8 mr-2 text-light">Login</a>
-        <a href="{% url 'blog-home' %}" class="btn-lg btn-secondary mb-8 mr-2 text-light">View public blogs</a>
+        <span class="mb-4 mr-2"><a href="{% url 'register'%}" class="btn-lg btn-info m-2 text-light">Register now</a></span>
+        <span class="mb-4 mr-2"><a href="{% url 'login'%}" class="btn-lg btn-info m-2 text-light">Login</a></span>
+        <span class="mb-4 mr-2"><a href="{% url 'blog-home' %}" class="btn-lg btn-secondary m-2 text-light">View public blogs</a></span>
     </div>
 {% endblock content %}
