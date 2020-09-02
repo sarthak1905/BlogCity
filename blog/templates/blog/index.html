@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <div class="container text-light p-4">
+        <h1 class="title">Welcome to BlogCity! Register today to get your account going within 5 minutes!</h1>
+        <button class="btn btn-primary">
+            <a href="{% url 'register'%}">Register now</a>
+        </button>
+        <button class="btn btn-primary">
+            <a href="{% url 'login'%}">Login</a>
+        </button>
+        <button class="btn btn-secondary">
+            <a href="{% url 'bolg-home' %}">View public blogs</a>
+        </button>
+    </div>
+{% endblock content %}
