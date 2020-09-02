@@ -1,15 +1,10 @@
 {% extends "blog/base.html" %}
 {% block content %}
     <div class="container p-4">
-        <h1 class="title text-light">Welcome to BlogCity! Register today to get your account going within 5 minutes!</h1>
-        <button class="btn-lg btn-info mb-4 mr-2">
-            <a href="{% url 'register'%}" class="text-light">Register now</a>
-        </button>
-        <button class="btn-lg btn-info mb-4 mr-2">
-            <a href="{% url 'login'%}" class="text-light">Login</a>
-        </button>
-        <button class="btn-lg btn-outline-info mb-4 mr-2">
-            <a href="{% url 'blog-home' %}" class="text-light">View public blogs</a>
-        </button>
+        <h1 class="title text-light">Welcome to BlogCity! Register today to get your account going within 5 minutes.</h1>
+        <br><br>
+        <a href="{% url 'register'%}" class="btn-lg btn-info mb-4 mr-2 text-light">Register now</a>
+        <a href="{% url 'login'%}" class="btn-lg btn-info mb-4 mr-2 text-light">Login</a>
+        <a href="{% url 'blog-home' %}" class="btn-lg btn-secondary mb-4 mr-2 text-light">View public blogs</a>
     </div>
 {% endblock content %}
