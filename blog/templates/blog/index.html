@@ -1,7 +1,7 @@
 {% extends "blog/base.html" %}
 {% block content %}
-    <div class="container p-4">
-        <h1 class="title text-light">Welcome to BlogCity! Register today to get your account going within 5 minutes.</h1>
+    <div class="container p-4 text-dark bg-white rounded" data-aos="fade-down">
+        <h1 class="display-4">Welcome to BlogCity! Register today to get your account going within 5 minutes.</h1>
         <br><br>
         <span class="mb-4 mr-2"><a href="{% url 'register'%}" class="btn-lg btn-info m-2 text-light">Register now</a></span>
         <span class="mb-4 mr-2"><a href="{% url 'login'%}" class="btn-lg btn-info m-2 text-light">Login</a></span>
