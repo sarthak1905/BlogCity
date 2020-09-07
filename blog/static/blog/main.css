@@ -5,6 +5,10 @@
   html body.bg-black{
     background: black;
   }
+
+  .bg-white{
+    background:white;
+  }
   
   h1, h2, h3, h4, h5, h6 {
     color: #444444;
