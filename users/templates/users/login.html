@@ -1,7 +1,7 @@
 {% extends "blog/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="content-section text-light">
+    <div class="content-section text-dark bg-white rounded" data-aos="flip-right" data-aos-duration="1200">
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">

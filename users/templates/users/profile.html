@@ -1,12 +1,12 @@
 {% extends "blog/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="content-section text-light">
+    <div class="content-section text-dark bg-white rounded" data-aos="flip-right" data-aos-duration="1200">
         <div class="media">
             <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
             <div class="media-body">
-                <h2 class="account-heading text-light">{{ user.username }}</h2>
-                <p class="text-secondary text-light">{{ user.email }}</p>
+                <h2 class="account-heading text-dark">{{ user.username }}</h2>
+                <p class="text-secondary text-dark">{{ user.email }}</p>
             </div>
         </div>
         <form method="POST" enctype="multipart/form-data">
