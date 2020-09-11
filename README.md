@@ -4,7 +4,7 @@
  currently under way.
  
  ## Modules Used
- Although several modules have been employed for the development of this website, it is primarily based on and developed using the django framework. However, PIL, bootstrap4,
+ Although several modules have been employed for the development of this website, it is primarily based on and developed using the django framework. However, PIL, bootstrap4, AOS library,
  jQuery, crispy forms are a few other major packaes used.
  
  ## Concepts Used
@@ -21,7 +21,7 @@
  Work is currently under way.
  
  ## Deployment Status 
- Undeployed(to be deployed soon)
+ Deployed at (http://sarthak1905.pythonanywhere.com/)
  
  ## Resources
  Django framework full course by Corey Schafer. Follow-with-me tutorial by Corey Schafer.
