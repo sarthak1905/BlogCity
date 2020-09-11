@@ -9,7 +9,7 @@
  
  ## Concepts Used
  This project develops both the front end as well as the backend of a website, impplying the fullstack development. Form validation, encryption, database management, SQL queries, 
- creating class based views, generating templates and furnishing the UI are a few integral concepts used to achieve the fluiity in this project 
+ creating class based views, generating templates and furnishing the UI are a few integral concepts used to achieve the fluidity in this project 
  
  ## Learning Outcome
  * This project helps one understand the true nuances of backend server management along with the bridge between the front and the back.
