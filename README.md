@@ -24,4 +24,4 @@
  Deployed at (http://sarthak1905.pythonanywhere.com/)
  
  ## Resources
- Django framework full course by Corey Schafer. Follow-with-me tutorial by Corey Schafer.
+ Django framework full course by Corey Schafer. 
